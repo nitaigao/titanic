@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+SUBMISSION=$(date +%s)
+
+./bin/train $SUBMISSION
+./bin/test $SUBMISSION
